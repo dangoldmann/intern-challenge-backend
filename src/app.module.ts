@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
-import { BlogController } from './blog.controller';
+import { BlogController } from './blog/blog.controller';
 import { AppService } from './app.service';
-import { BlogService } from './blog.service';
-import { Blog } from './blog.entity';
+import { BlogService } from './blog/blog.service';
+import { Blog } from './blog/blog.entity';
 
 @Module({
   imports: [
